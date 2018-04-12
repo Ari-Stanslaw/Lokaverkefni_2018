@@ -7,8 +7,7 @@
         <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
     </head>
     <body>
-    	
-        <div class="ui inverted menu">
+   <div class="ui inverted menu">
   <div class="header item"><h3>Brand</h3></div>
 
 
@@ -43,23 +42,50 @@
   </div>
 </div>
 
-
 <div class="ui internally celled grid">
   <div class="row">
     <div class="three wide column">
       <img>
+      <div class="ui four column doubling stackable grid container">
+<table class="ui selectable inverted table">
+  <thead>
+    <tr>
+      <th>Info</th>
+      <th>Info</th>
+      <th class="right aligned">Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Info</td>
+      <td>Info</td>
+      <td class="right aligned">Info</td>
+    </tr>
+    <tr>
+      <td>Info</td>
+      <td>Info</td>
+      <td class="right aligned">Info</td>
+    </tr>
+    <tr>
+      <td>Info</td>
+      <td>Info</td>
+      <td class="right aligned">Info</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
     </div>
     <div class="ten wide column">
       <h1 class="ui header">Header</h1>
       <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
     </div>
-    <div class="three wide column">
-      <img>
-    </div>
-  </div>
+
 
     <script type="text/javascript">
-    	
+$('#search-select')
+  .dropdown()
+;
 
     </script>
     </body>

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+    <head>
+    	<link rel="stylesheet" type="text/css" href="../static/semantic.min.css">
+    	<script type="text/javascript" src="../static/jquery-3.3.1.min.js"></script>
+    	<script type="text/javascript" src="../static/semantic.min.js"></script>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+
+        <div class="ui inverted menu">
+            <div class="header item"><h3><a href="/">OverWatch</a></h3></div>
+        </div>
+
+
+<div class="ui internally celled grid">
+
+   <div class="row">
+    <div class="four wide column">
+          <img src="https://mmoexaminer.com/wp-content/uploads/2016/08/logo-overwatch.jpg" style="width:300px;height:250px;">
+    </div>
+    <div class="eight wide column">
+        <h1 class="ui header">{{ name }}</h1>
+        <p>{{ description }}</p>
+
+    </div>
+    <div class="four wide column">
+    <table class="ui selectable inverted table">
+          <img src="{{ img }}">
+  <thead>
+    <tr>
+      <th>Real Name:</th>
+      <th>{{ realname }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Age:</td>
+      <td>{{ age }}</td>
+    </tr>
+    <tr>
+      <td>Height:</td>
+      <td>{{ height }}</td>
+    </tr>
+    <tr>
+      <td>Affiliation:</td>
+      <td>{{ affiliation }}</td>
+    </tr>
+    <tr>
+      <td>Base of operation:</td>
+      <td>{{ base_of_operations }}</td>
+    </tr>
+    <tr>
+      <td>Hero Difficulty:</td>
+      <td>{{ difficulty }}</td>
+    </tr>
+    <thead>
+    <tr>
+      <th>Hero Health:</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tr>
+      <td>Health:</td>
+      <td>{{ health }}</td>
+    </tr>
+  <tr>
+      <td>Armour:</td>
+      <td>{{ armour }}</td>
+    </tr>
+  <tr>
+      <td>Shield:</td>
+      <td>{{ shield }}</td>
+    </tr>
+        <thead>
+    <tr>
+      <th>Hero Role:</th>
+      <th></th>
+    </tr>
+  </thead>
+        <tr>
+      <td>{{ role }}</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+  </div>
+</div>
+    </script>
+    </body>
+</html>
